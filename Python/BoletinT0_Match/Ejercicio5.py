@@ -9,6 +9,8 @@ print ("  --4.Rosa--       --2--     --Segunda--")
 print ("  --5.Gris--       --1--     --Tercera--")
 print ("========================================")
 NumHab = int(input("Dime el número de habitación: "))
+if NumHab > 5 or NumHab < 1:
+    NumHab = int(input("El nº anterior es incorrecto, vuelve a introducir un número: "))
 match NumHab:
     case 1:
         print ("2 camas --- Primera planta")
@@ -20,5 +22,4 @@ match NumHab:
         print ("2 camas --- Segunda planta")
     case 5:
         print ("2 camas --- Tercera planta")
-    case _:
-        print ("Esa habitación no existe")
+print ("Fin del programa")
