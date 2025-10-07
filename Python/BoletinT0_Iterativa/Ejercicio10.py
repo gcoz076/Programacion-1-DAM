@@ -1,5 +1,3 @@
-multiplo = 0
-for i in range(5, 50):
+for i in range(5, 51, 5):
     if i% 5 == 0: 
-        multiplo = multiplo + i
-print(multiplo)
+        print(i)
