@@ -1,0 +1,2 @@
+def calculaTempMedia(tempmax, tempminima):
+    
