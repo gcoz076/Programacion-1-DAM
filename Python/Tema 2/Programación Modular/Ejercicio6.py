@@ -30,7 +30,7 @@ def juego_pase_ingles():
             saldo = saldo + ganancia
             historial.append([valor_apostado, suma, ganancia])
         elif opcion == "2":
-            print("\n--- HISTORIAL ---")
+            print("--- HISTORIAL ---")
             if len(historial) == 0:
                 print("No hay jugadas registradas.")
             else:
