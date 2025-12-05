@@ -1,9 +1,7 @@
 from random import randint
-
 def tirar_dado():
     dado = randint(1, 6)
     return dado
-
 def juego_pase_ingles():
     historial = []
     saldo = 0

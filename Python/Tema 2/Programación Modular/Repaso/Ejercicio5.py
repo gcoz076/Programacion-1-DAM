@@ -49,6 +49,7 @@ def redondear(valor):
                 print("== El numero Mantiene de " + texto + " a " + parte_entera + "." + str(d1) + str(d2) + " ==")
             resultado = parte_entera + "." + str(d1) + str(d2)
     return resultado
+
 print(redondear(1.449))
 print(redondear("0.374"))
 print(redondear(5))
