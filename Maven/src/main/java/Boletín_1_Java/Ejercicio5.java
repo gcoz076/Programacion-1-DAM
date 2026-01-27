@@ -15,7 +15,6 @@ public class Ejercicio5 {
         System.out.print("Edad del cliente: ");
         int edad = scanner.nextInt();
 
-        // Evaluar elegibilidad
         boolean elegible = (tieneMembresiaPremium && montoGastado > 50) || (edad > 65);
 
         if (elegible) {

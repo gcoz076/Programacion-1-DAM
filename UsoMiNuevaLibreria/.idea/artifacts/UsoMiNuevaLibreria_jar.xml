@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UsoMiNuevaLibreria:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UsoMiNuevaLibreria_jar</output-path>
+    <root id="archive" name="UsoMiNuevaLibreria.jar">
+      <element id="module-output" name="UsoMiNuevaLibreria" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../MiNuevaLibreria/out/artifacts/MiNuevaLibreria_jar/MiNuevaLibreria.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

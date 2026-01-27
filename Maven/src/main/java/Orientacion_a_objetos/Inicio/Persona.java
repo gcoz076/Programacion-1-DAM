@@ -1,4 +1,4 @@
-package Orientacion_a_objetos;
+package Orientacion_a_objetos.Inicio;
 
 public class Persona {
 

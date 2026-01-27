@@ -9,7 +9,7 @@ public class Ejercicio12 {
         System.out.println("Escribe la contraseña: ");
         int contrasena = sc.nextInt();
 
-        while(contrasena != 1234) {
+        while (contrasena != 1234) {
             System.out.println("Dime de nuevo la contraseña: ");
             contrasena = sc.nextInt();
         }
