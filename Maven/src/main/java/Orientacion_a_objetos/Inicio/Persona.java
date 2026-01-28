@@ -30,15 +30,15 @@ public class Persona {
     }
 
     //Métodos
-    void hablar(){
+    void hablar() {
         System.out.println(nombre + " está hablando...");
     }
 
-    boolean haRobado(){
+    boolean haRobado() {
         return false;
     }
 
-    void comer(){
+    void comer() {
         System.out.println(nombre + " esta comiendo...");
     }
 
@@ -52,5 +52,4 @@ public class Persona {
                 ", deporteFav='" + deporteFav + '\'' +
                 '}';
     }
-
 }
