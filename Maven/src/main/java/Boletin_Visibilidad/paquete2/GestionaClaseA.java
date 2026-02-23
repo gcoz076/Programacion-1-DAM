@@ -1,3 +1,4 @@
+/*
 package Boletin_Visibilidad.paquete2;
 
 import Boletin_Visibilidad.paquete1.ClaseA;
@@ -9,3 +10,4 @@ public class GestionaClaseA {
         System.out.println(objeto.suma(2, 3));
     }
 }
+*/

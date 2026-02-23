@@ -1,4 +1,6 @@
+/*
 package Orientacion_a_objetos.Pokemon;
+
 
 import java.util.Arrays;
 import java.util.Random;
@@ -84,3 +86,5 @@ public class Pokemon {
                 '}';
     }
 }
+*/
+

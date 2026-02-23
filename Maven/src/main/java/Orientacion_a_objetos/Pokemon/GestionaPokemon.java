@@ -1,3 +1,4 @@
+/*
 package Orientacion_a_objetos.Pokemon;
 
 import java.util.Scanner;
@@ -55,3 +56,4 @@ public class GestionaPokemon {
         }
     }
 }
+*/
