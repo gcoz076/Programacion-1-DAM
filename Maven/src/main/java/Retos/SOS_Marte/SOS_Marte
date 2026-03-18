@@ -1,0 +1,50 @@
+package Retos.SOS_Marte;
+
+import java.util.Scanner;
+
+public class SOS_Martes {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String[] recursos = new String[100];
+        int[] cantidades = new int[100];
+        int[] limites_alerta = new int[100];
+
+        System.out.println("Dime el número de entradas: ");
+        int numeroEntradas = scanner.nextInt();
+
+        for (int i = 0; i < numeroEntradas; i++) {
+
+            System.out.println("Dime el recurso que quieras añadir: ");
+            String dimeRecurso = scanner.next();
+            recursos[i] = dimeRecurso;
+
+            System.out.println("Dime la cantidad del recurso: ");
+            int dimeCantidad = scanner.nextInt();
+            cantidades[i] = dimeCantidad;
+
+            System.out.println("Dime su nivel crítico: ");
+            int dimeCritico = scanner.nextInt();
+            limites_alerta[i] = dimeCritico;
+        }
+    }
+    public static String extraer_datos(String recursos, int cantidades, int limites_alerta) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Dime el Recurso del que quieras recibir información: ");
+        String dimeRecurso = scanner.next();
+        String mensaje = "";
+        boolean encontrado = false;
+        int i = 0;
+        int posicion = i;
+
+        while (i < recursos.length() && encontrado == true){
+            if (recursos[i].equals(dimeRecurso)) {
+                posicion = i;
+                System.out.println("¿Cuanto has consumido de ese recurso? ");
+                String consumido = scanner.next();
+                String resultado = "ERR_SISTEMA::"+ recursos[posicion]+"::"+ consumido +"++FIN";
+                encontrado = true;
+            }
+            i = i+1;
+        }
+    }
+}
